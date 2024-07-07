@@ -1,0 +1,14 @@
+{
+    "articles": [
+      { "title": "SHMÚ vydáva výstrahy pre takmer celé Slovensko. Bude aj -20 °C, toto sú predikcie na nasledujúce dni (PREDPOVEĎ)", "readers": 500,"image": "img/pocasie.png" },
+      { "title": "Kuchár Jožko je syn krutého vraha. V roku 1980 bol za svoje činy odsúdený na trest smrti", "readers": 700,"image": "img/kucharJozko.jpg" },
+      { "title": "Vážna nehoda na D1 má dohru, mladý Bulhar za zdemolovanie pumpy putuje do väzby", "readers": 300, "image": "img/autonehoda.jpeg" },
+      { "title": "Poznáme TOP 10 krajín pre prácu na diaľku. Slovensko v rebríčku nečakane zahviezdilo", "readers": 900, "image":"img/homeoffice.jpg" },
+      { "title": "Na cestu v okrese Žilina sa zosunula pôda. Úsek je neprejazdný", "readers": 400, "image":"img/zosuvpody.jpg" }
+    ],
+    "realtimeUsers": 120,
+    "facebookLikes": 1500,
+    "instagramFollows": 800,
+    "youtubeSubs": 2000
+  }
+  

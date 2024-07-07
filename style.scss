@@ -1,0 +1,61 @@
+$main-color: white;
+$button-color: #0D6EFD;
+$button-disabled:#bdc3c7;
+
+
+// Nastavenie fontu a farby pozadia 
+body {
+    font-family: Arial, sans-serif;
+    background-color: $main-color;
+    margin: 0;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  // Nastavenie stylu pre hlavny kontajner
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: $main-color;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  // Nastavenie stylu pre formular
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  // Nastavenie stylu pre popis vo formulari
+  label {
+    margin-bottom: 8px;
+  }
+  
+  // Nastavenie stylu pre vstupne pole vo formulari
+  input {
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+  // Nastavenie stylu pre tlačítko vo formulari
+  button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: $button-color;
+    color: $main-color;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  // Nastavenie stylu pro deaktivovane tlačítko v formulari
+  button:disabled {
+    background-color: $button-disabled;
+    cursor: not-allowed;
+  }
+
+
+  
